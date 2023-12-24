@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "media2devonthink"
+version = "0.0.1"
+description = "Uses AI to summarize various types of media and insert it into a devonthink database."
+authors = ["Soleblaze <soleblaze@skyshadows.net>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/soleblaze/media2devonthink"
+repository = "http://github.com/soleblaze/media2devonthink"
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+pytest = "^7.3.2"
+mkdocs = "^1.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+m2dt = "m2dt.m2dt:run"
