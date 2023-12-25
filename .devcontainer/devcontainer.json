@@ -1,0 +1,23 @@
+{
+  "name": "Python 3",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/black:2": {},
+    "ghcr.io/devcontainers-contrib/features/coverage-py:2": {},
+    "ghcr.io/devcontainers-contrib/features/isort:2": {},
+    "ghcr.io/devcontainers-contrib/features/mypy:2": {},
+    "ghcr.io/devcontainers-contrib/features/poetry:2": {},
+    "ghcr.io/devcontainers-contrib/features/pylint:2": {},
+    "ghcr.io/devcontainers-contrib/features/ruff:1": {},
+    "ghcr.io/devcontainers-contrib/features/yamllint:2": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "charliermarsh.ruff",
+        "ms-python.isort",
+        "ms-python.python"
+      ]
+    }
+  }
+}
